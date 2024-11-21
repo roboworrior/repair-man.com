@@ -1,0 +1,490 @@
+@media( min-width:376px)and (max-width :450px){
+    /* mobil devices  large*/
+    
+
+    .container{
+        display: block; 
+        overflow: hidden;
+        left: 100px;
+        bottom: 65px;
+        
+        
+        .sell,.opt{
+            
+            display: none ;
+        }
+        .searchbar{
+            
+            top: 0px;
+            left: 80px;
+            /* border: 1px solid pink; */
+        }
+        
+        
+        #hamicon{
+            /* background-color: aqua; */
+            /* position: relative; */
+            height: 70px;
+           
+            display: block;
+            bottom: 60px;
+            left: 320px;
+            
+        }
+        
+        #logo{
+            height: 50px;
+            width: 350px;
+            #head{
+                
+                background-color: red;
+
+                display: inline;
+                width: 250px;
+                padding-top: 10px;
+                padding-left: 10px;
+                margin-right: 0px;
+                /* margin-left:20px; */
+                font-size:2.5rem;
+            }
+        }
+        
+                
+    }
+
+    .box{
+        background-size: contain;
+        height: 250px;
+        width:300px;
+        /* margin-left: 5%; */
+        font-size: 1.5rem;
+        background-size: 70%;
+    }
+    
+    
+    .main{
+        margin-top: 10px;
+        padding-left: 0;
+        
+        justify-content: space-around;
+    }
+    
+
+    }
+
+@media (max-width : 375px) and (min-width:350px){
+    /* mobil devices  medium*/
+    
+
+    .container{
+        display: block; 
+        overflow: hidden;
+        left: 100px;
+        bottom: 65px;
+        
+        
+        .sell,.opt{
+            
+            display: none ;
+        }
+        .searchbar{
+            
+            top: 0px;
+            left: 80px;
+            /* border: 1px solid pink; */
+        }
+        
+        
+        #hamicon{
+            /* background-color: aqua; */
+            height: 60px;
+            display: block;
+            position: relative;
+            bottom: 55px;
+            left: 290px;
+        }
+        
+        #logo{
+            height: 50px;
+            width: 300px;
+            #head{
+                
+                background-color: blue;
+
+                display: inline;
+                width: 250px;
+                padding-top: 10px;
+                padding-left: 20px;
+                margin-right: 0px;
+                /* margin-left:20px; */
+                font-size:2.2rem;
+            }
+        }
+        
+                
+    }
+
+    .box{
+        background-size: contain;
+        height: 250px;
+        width:300px;
+        /* margin-left: 5%; */
+        font-size: 1.5rem;
+        background-size: 70%;
+    }
+    
+    
+    .main{
+        margin-top: 10px;
+        padding-left: 0;
+        
+        justify-content: space-around;
+    }
+    
+
+    }
+@media(max-width : 350px){
+    /* mobil devices  small */
+    
+
+    .container{
+        display: block; 
+        overflow: hidden;
+        left: 100px;
+        bottom: 65px;
+        
+        
+        .sell,.opt{
+            
+            display: none ;
+        }
+        .searchbar{
+            
+            top: 0px;
+            left: 40px;
+            /* border: 1px solid pink; */
+        }
+        
+        
+        #hamicon{
+            /* background-color: aqua; */
+            height: 50px;
+            display: block;
+            position: relative;
+            bottom: 60px;
+            left: 250px;
+        }
+        
+        #logo{
+            height: 50px;
+            width: 300px;
+            #head{
+                
+                /* background-color: pink; */
+
+                display: inline;
+                width: 250px;
+                padding-top: 10px;
+                padding-left: 20px;
+                margin-right: 0px;
+                /* margin-left:20px; */
+                font-size:1.8rem;
+            }
+        }
+        
+                
+    }
+
+    .box{
+        background-size: contain;
+        height: 200px;
+        width:250px;
+        /* margin-left: 5%; */
+        font-size: 1.5rem;
+        background-size: 70%;
+    }
+    
+    
+    .main{
+        margin-top: 10px;
+        padding-left: 0;
+        
+        justify-content: space-around;
+    }
+    
+
+    }
+
+
+
+
+
+
+@media(max-width : 820px)and (min-width:540px){
+    /* Tablet */
+    
+
+    .container{
+        
+        display:block;
+        overflow: hidden;
+        left: 100px;
+        bottom: 65px;
+        
+        
+        .sell,.opt{
+            
+            display: none ;
+        }
+        
+        .searchbar{
+            
+            /* position: relative; */
+            /* display: b lock; */
+
+            display: inline-block;
+            top: -70px;
+            left: 250px;
+        
+        }
+        
+        
+        #hamicon{
+            /* background-color: red; */
+         
+            display:block;
+            height: 100px;
+
+            bottom:90px;
+            
+            left: 600px;
+
+        
+        }
+        
+
+        #logo{
+            
+            height: 80px;
+            width: 600px;
+            margin-left: 10px;     
+            #head{
+                
+                background-color: #00ffd5;
+                
+                width: 250px;
+                padding-top: 10px;
+                padding-left: 20px;
+                margin-right: 0px;
+                /* margin-left:20px; */
+                font-size:4rem;
+            }
+        }
+        
+                
+    }
+
+    .box{
+        background-size: cover;
+        height: 300px;
+        width:300px;
+    
+        /* margin-left: 5%; */
+        font-size: 1.5rem;
+        background-size: 70%;
+    }
+    
+    
+    .main{
+        margin-top: 10px;
+        /* gap: 0px; */
+        padding-left: 0px;
+        justify-content: space-around;
+    }
+    
+
+    }
+    
+@media(max-width : 1024px)and (min-width:900px){
+    /* LAPTOp */
+    
+
+    .container{
+        
+        display:block;
+        overflow: hidden;
+        left: 100px;
+        bottom: 65px;
+        
+
+        .opt{
+            position: relative;
+            padding-left: 200px;
+            a{
+
+                font-size: 1.8rem;
+            }
+        }
+        
+        .sell{
+            bottom: 130px;
+            left: 700px;     
+        }
+        .searchbar{
+            
+            /* position: relative; */
+            /* display: b lock; */
+
+            display: inline-block;
+            top: 15px;
+            left: 250px;
+        
+        }
+        
+        
+        #hamicon{
+            /* background-color: red; */
+         
+            display:none;
+        
+        
+        }
+        
+
+        #logo{
+            
+            height: 80px;
+            width: 700px;
+            margin-left: 10px;    
+            position: relative; 
+            bottom: 15px;
+            #head{
+                
+                /* background-color: purple; */
+                
+                width: 250px;
+                padding-top: 0px;
+                padding-left: 20px;
+                margin-right: 0px;
+                /* margin-left:20px; */
+                font-size:5rem;
+            }
+        }
+        
+                
+    }
+
+    .box{
+        background-size: cover;
+        height: 350px;
+        width:400px;
+    
+        /* margin-left: 5%; */
+        font-size: 1.5rem;
+        background-size: 70%;
+    }
+    
+    
+    .main{
+        margin-top: 10px;
+        /* gap: 0px; */
+        padding-left: 0px;
+        justify-content: space-around;
+    }
+    
+
+    }
+    
+    
+@media(max-width : 1440px)and (min-width:1030px){
+    /* LAPTOp  Large*/
+    
+
+    .container{
+        
+        display:block;
+        overflow: hidden;
+        left: 100px;
+        bottom: 65px;
+        
+
+        .opt{
+            position: relative;
+            padding-left: 100px;
+            width: 1440px;
+            top: 5px;
+            a{
+                margin-right: 200px;
+                font-size: 2rem;
+            }
+        }
+        
+        .sell{
+            bottom: 130px;
+            left: 1100px;     
+        }
+        .searchbar{
+            
+            /* position: relative; */
+            /* display: b lock; */
+
+            display: inline-block;
+            top: 10px;
+            left: 550px;
+        
+        }
+        
+        
+        #hamicon{
+            /* background-color: red; */
+         
+            display:none;
+        
+        
+        }
+        
+
+        #logo{
+            
+            height: 80px;
+            width: 1000px;
+            margin-left: 10px;    
+            position: relative; 
+            bottom: 15px;
+            #head{
+                
+                /* background-color: yellow; */
+                
+                width: 250px;
+                padding-top: 0px;
+                padding-left: 300px;
+                margin-right: 0px;
+                /* margin-left:20px; */
+                font-size:5.5rem;
+            }
+        }
+        
+                
+    }
+
+    .box{
+        background-size: cover;
+        height: 350px;
+        width:400px;
+    
+        /* margin-left: 5%; */
+        font-size: 1.5rem;
+        background-size: 70%;
+    }
+    
+    
+    .main{
+        margin-top: 10px;
+        gap: 50px;
+        padding-left: 0px;
+        justify-content: space-around;
+    }
+    
+
+    }
+    
