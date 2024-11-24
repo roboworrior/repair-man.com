@@ -1,7 +1,8 @@
 @media( min-width:376px)and (max-width :450px){
     /* mobil devices  large*/
     
-
+    
+    
     .container{
         display: block; 
         overflow: hidden;
@@ -9,15 +10,23 @@
         bottom: 65px;
         
         
-        .sell,.opt{
+        .sell{
             
             display: none ;
         }
+        
+        
+        .opt{
+            position: absolute;
+            right: 1000px;
+        }
+        
         .searchbar{
             
             top: 0px;
             left: 80px;
             /* border: 1px solid pink; */
+            display: none;
         }
         
         
@@ -37,7 +46,7 @@
             width: 350px;
             #head{
                 
-/*                 background-color: red; */
+                background-color: red;
 
                 display: inline;
                 width: 250px;

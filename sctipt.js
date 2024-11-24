@@ -6,9 +6,13 @@ let box5=document.querySelector(".box5");
 let box6=document.querySelector(".box6");
 
 let hamico=document.querySelector("#hamicon");
+let optact=document.querySelector(".opt");
 
 hamico.onclick=()=>{
     console.log("hamberger\n");
+
+    optact.classList.toggle("active");
+
 }
 
 
