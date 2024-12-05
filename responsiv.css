@@ -19,24 +19,26 @@
         .opt{
             position: absolute;
             right: 1000px;
+            z-index: 1;
         }
         
         .searchbar{
             
-            top: 0px;
+            top: 30px;
             left: 80px;
+
             /* border: 1px solid pink; */
-            display: none;
+            /* display: none; */
         }
         
         
         #hamicon{
             /* background-color: aqua; */
             /* position: relative; */
-            height: 40px;
-           
+            height: 35px;
+            
             display: block;
-            bottom: 50px;
+            bottom: 45px;
             left: 340px;
             
         }
@@ -46,8 +48,8 @@
             width: 330px;
             #head{
                 
-                /* background-color: #00ffd5; */
-
+                background-color: red;
+                
                 display: inline;
                 width: 250px;
                 padding-top: 10px;
@@ -58,9 +60,9 @@
             }
         }
         
-                
+        
     }
-
+    
     .box{
         background-size: contain;
         height: 250px;
@@ -78,13 +80,14 @@
         justify-content: space-around;
     }
     
+    
+}
 
-    }
 
 @media (max-width : 375px) and (min-width:350px){
     /* mobil devices  medium*/
     
-
+    
     .container{
         display: block; 
         overflow: hidden;
@@ -92,25 +95,32 @@
         bottom: 65px;
         
         
-        .sell,.opt{
+        .sell{
             
             display: none ;
         }
+        
+        .opt{
+            position: absolute;
+            right: 1000px;
+            z-index: 1;
+        }
         .searchbar{
             
-            top: 0px;
-            left: 80px;
+            position: relative;
+            top: 30px;
+            left: 60px;
             /* border: 1px solid pink; */
         }
         
         
         #hamicon{
             /* background-color: aqua; */
-            height: 60px;
+            height: 30px;
             display: block;
             position: relative;
-            bottom: 55px;
-            left: 290px;
+            bottom: 45px;
+            left: 300px;
         }
         
         #logo{
@@ -119,7 +129,7 @@
             #head{
                 
                 background-color: blue;
-
+                
                 display: inline;
                 width: 250px;
                 padding-top: 10px;
@@ -130,9 +140,9 @@
             }
         }
         
-                
+        
     }
-
+    
     .box{
         background-size: contain;
         height: 250px;
@@ -150,12 +160,12 @@
         justify-content: space-around;
     }
     
-
-    }
+    
+}
 @media(max-width : 350px){
     /* mobil devices  small */
     
-
+    
     .container{
         display: block; 
         overflow: hidden;
@@ -163,13 +173,20 @@
         bottom: 65px;
         
         
-        .sell,.opt{
+        .sell{
             
             display: none ;
         }
+
+        .opt{
+            position: absolute;
+            right: 1000px;
+            z-index: 1;
+        }
+        
         .searchbar{
-            
-            top: 0px;
+        
+            top: 30px;
             left: 40px;
             /* border: 1px solid pink; */
         }
@@ -177,19 +194,21 @@
         
         #hamicon{
             /* background-color: aqua; */
-            height: 50px;
+            height: 30px;
             display: block;
             position: relative;
-            bottom: 60px;
-            left: 250px;
+            bottom: 50px;
+            left: 265px;
         }
         
         #logo{
             height: 50px;
-            width: 300px;
+            width: 250px;
+
+            
             #head{
                 
-                /* background-color: pink; */
+                background-color: pink;
 
                 display: inline;
                 width: 250px;
