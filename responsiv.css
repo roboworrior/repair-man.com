@@ -33,17 +33,17 @@
         #hamicon{
             /* background-color: aqua; */
             /* position: relative; */
-            height: 70px;
+            height: 40px;
            
             display: block;
-            bottom: 60px;
-            left: 310px;
+            bottom: 50px;
+            left: 340px;
             
         }
         
         #logo{
             height: 50px;
-            width: 350px;
+            width: 330px;
             #head{
                 
                 /* background-color: #00ffd5; */
