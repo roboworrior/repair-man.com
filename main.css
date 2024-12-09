@@ -1,8 +1,8 @@
 *{
     font-family: sans-serif;
-
     margin: 0px;
     padding: 0px;
+
 }
 #logo{
     height: 100px;
@@ -116,6 +116,7 @@ a:hover{
         position: relative;
         top: 120px;
         right: 600px;
+        
     }        
     
     #hamicon{
